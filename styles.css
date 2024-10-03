@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"], select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+button, .button {
+    padding: 10px;
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5cb85c; /* Default green for buttons */
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+/* General Button Styles */
+.button, input[type="submit"] {
+    display: block;
+    width: 100%; /* Make it full width like the register button */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #5bc0de; /* Blue color */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover Effect */
+.button:hover, input[type="submit"]:hover {
+    background-color: #31b0d5; /* Darker blue on hover */
+}
+
+
+/* Login button specific styling */
+.login-button {
+    background-color: #28a745; /* Green color for login button */
+}
+
+.login-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Register button specific styling */
+a.button {
+    background-color: #5bc0de; /* Blue color for the register button */
+}
+
+a.button:hover {
+    background-color: #31b0d5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
